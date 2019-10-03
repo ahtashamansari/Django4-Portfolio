@@ -1,0 +1,18 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block contact %}
+<br> <br><br><br>
+<div class="container">
+    <div class="row featurette">
+        <div class="col-md-7">
+        <h2 class="featurette-heading">Ecommerce Web Application:<br><span class="text-muted">like flipkart, Amazon, etc.</span></h2>
+        <p class="lead">It is a Django Based website Having functionalities of purchasing products by adding them in cart and checkout by using payment gateways.
+                Main contributing technologies includes Django2, Python3, Bootstrap4, CSS3 and HTML5.</p>
+        </div>
+        <div class="col-md-5">
+                <img src="{% static 'blog/images/20.png' %}" width="630" height="420" alt="">
+        </div>
+    </div>
+</div>    
+{% endblock contact %}

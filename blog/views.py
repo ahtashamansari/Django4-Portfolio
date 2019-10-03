@@ -26,5 +26,14 @@ def contacts(request):
         var_contact.save()
         return render(request, 'blog/thanks.html') 
     else:
-        return render(request, 'blog/contacts.html')    
+        return render(request, 'blog/contacts.html') 
+
+def project_detail1(request):
+    return render(request, 'blog/project_detail1.html') 
+
+def project_detail2(request):
+    return render(request, 'blog/project_detail2.html') 
+
+def project_detail3(request):
+    return render(request, 'blog/project_detail3.html')                
 

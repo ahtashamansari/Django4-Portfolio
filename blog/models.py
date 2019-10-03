@@ -27,5 +27,12 @@ class Blog(models.Model):
         return self.body[:100] 
 
     def __str__(self):
-        return self.title               
+        return self.title
+
+class Project_detail(models.Model):
+    project_name = models.CharField(max_length=150)
+    description = models.TextField()
+
+    def __str__(self):
+        return self.project_name                       
 
